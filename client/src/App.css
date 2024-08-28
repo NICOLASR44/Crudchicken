@@ -1,0 +1,68 @@
+.App {
+  text-align: center;
+  background-color: #f9f5e3;
+  color: #3d3b3b;
+  font-family: "Arial", sans-serif;
+}
+
+.App-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffde59;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+  h1 {
+    margin: 30px;
+  }
+  .LogoPoulet {
+    height: 100px;
+    width: 100px;
+  }
+  .LogoPoulet2 {
+    height: 100px;
+    width: 100px;
+    image-orientation: flip;
+  }
+}
+
+.chicken-list {
+  margin: 20px auto;
+  width: 50%;
+}
+
+.chicken-item {
+  background-color: #fff8e1;
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.chicken-form {
+  margin: 20px auto;
+  padding: 20px;
+  width: 50%;
+  background-color: #fffbcc;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+button {
+  padding: 10px 15px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ff9800;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #f57c00;
+}
