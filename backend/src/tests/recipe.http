@@ -1,0 +1,25 @@
+POST http://localhost:5000/api/recipes
+Content-Type: application/json
+
+{
+    "name" : "Poulet Basquaise",
+    "description" : "Le poulet basquaise ou poulet à la basquaise est une spécialité culinaire de cuisine traditionnelle emblématique de la cuisine basque, étendue avec le temps à la cuisine française, à base de morceaux de poulet mijotés dans une piperade."
+}
+
+###
+
+GET http://localhost:5000/api/recipes
+
+###
+
+PUT http://localhost:5000/api/recipes/1
+Content-Type: application/json
+
+{
+    "name" : "Poulet Coco",
+    "description" : "Le poulet à la noix de coco peut sembler intimidant à préparer en raison de sa saveur complexe, mais c'est super facile. Vous avez besoin de lait de coco, de poudre de curry, de pâte de tomate, d'ail, d'oignon, de garam masala et de curcuma . Qu'est-ce que c'est? Le lait de coco rend la sauce super crémeuse et riche, tandis que la pâte de tomate apporte de l'acidité."
+}
+
+###
+
+DELETE http://localhost:5000/api/recipes/2
